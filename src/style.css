@@ -1,0 +1,111 @@
+body {
+  background-image: url(../src/img/plano-de-fundo.jpg);
+  background-repeat: repeat;
+  background-size: contain;
+
+}
+
+.container {
+  font-family: "roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.container .duvida {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  margin-right: 80px;
+
+}
+
+.container .duvida h1 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.container .duvida p {
+  font-size: 26px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  width: 610px;
+  height: 680px;
+  padding: 40px;
+  border-radius: 10px;
+  align-items: center;
+
+}
+
+.container form input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  width: 100%;
+  height: 65px;
+  border-radius: 8px;
+  font-size: 25px;
+  padding: 15px;
+
+}
+
+form>input:nth-of-type(4) {
+  height: 180px;
+  ;
+}
+
+.container form .campo-obrigatorio {
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  font-size: 25px;
+}
+
+.container form button {
+  background-color: rgb(82, 215, 144);
+  border: none;
+  width: 100%;
+  height: 70px;
+  border-radius: 8px;
+  color: white;
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+.container form button:hover {
+  background-color: rgb(82, 215, 144, 0.8);
+}
+
+.valido {
+  border-color: rgb(19, 234, 19);
+  border: 2px solid rgb(19, 234, 19);
+}
+
+.invalido {
+  border-color: rgb(234, 19, 19);
+  border: 2px solid rgb(234, 19, 19);
+}
+
+.obrigatorio {
+  color: red;
+  font-size: 15px;
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  margin: 0;
+  margin-top: -10px;
+
+}
+
+.invisivel {
+  display: none;
+}
